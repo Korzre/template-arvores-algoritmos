@@ -1,6 +1,5 @@
-# Inserir 30 números aleatórios, tamanho: Árvore binária
-#from typing_extensions import Self
-""" 
+from typing_extensions import Self
+
 from random import randint
 
 class Node:
@@ -543,20 +542,18 @@ comprimento total de 11 (1 + 4 + 6).
 
 #Grafos sem arestas:
 """
-Um grafo pode não ter nenhuma aresta, ou seja, pode 
+""" Um grafo pode não ter nenhuma aresta, ou seja, pode 
 ser um conjunto de vértices sem conexões entre eles. 
 Esse tipo de grafo é chamado de grafo vazio ou nulo.
 
-Por exemplo, um grafo vazio com 4 vértices pode ser 
+""" Por exemplo, um grafo vazio com 4 vértices pode ser 
 representado da seguinte forma:
 
- o   o   o   o
+ """ o   o   o   o
  
-Nesse grafo, cada vértice é representado por um 
+""" Nesse grafo, cada vértice é representado por um 
 círculo (o) e não há nenhuma aresta que conecte os 
 vértices. Esse grafo pode ser útil em certos c
 ontextos teóricos ou para representar situações 
 onde não há relação entre os objetos representados 
 pelos vértices.
-
-"""
